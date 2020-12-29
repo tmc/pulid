@@ -8,3 +8,7 @@
 Prefixed Universally Unique Lexicographically Sortable Identifier
 
 Wraps [oklog/ulid](https://github.com/oklog/ulid) and adds a two-character prefix on ids.
+
+This is similar to the pattern that Twilio uses in their entity IDs.
+
+This allows encoding of entity types into identifiers.
