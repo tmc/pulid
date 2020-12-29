@@ -11,8 +11,8 @@ import (
 
 // ID - Prefixed ULID. The first two characters indicate the type of entity being described.
 type ID struct {
-	ulid.ULID
 	Prefix string
+	ulid.ULID
 }
 
 // EncodedSize is the length of a text encoded PULID.
